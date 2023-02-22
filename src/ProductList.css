@@ -1,0 +1,27 @@
+
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: 20%;
+    margin-bottom: 20px;
+    background-color: lavenderblush;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 1em;
+    color: #888;
+  }
